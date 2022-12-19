@@ -6,4 +6,4 @@ with open('inputs/day1.in') as input_file:
 sum_of_calories: list[int] = [sum(i) for i in elf_calories]
 max_calory = max(sum_of_calories)
 elf_with_max_calory = sum_of_calories.index(max_calory)
-print(elf_with_max_calory, max_calory)
+print(max_calory)
